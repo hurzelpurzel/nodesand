@@ -8,6 +8,9 @@ var port = 8080;
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
+app.get('/pagecount', function (req, res) {
+  res.send('1');
+});
 //app.get('/secrets', function (req, res) {
 //     res.send('The secrets are'+ JSON.stringify(secrets));
 //  });
